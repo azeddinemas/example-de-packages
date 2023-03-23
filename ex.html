@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="https://via.placeholder.com/500x500.png" alt="Product Image" class="img-fluid">
+            </div>
+            <div class="col-md-6">
+                <h2>Product Name</h2>
+                <h3>$19.99</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce aliquam dui vel ex tempus, sed posuere lorem elementum. Nunc faucibus, nibh ut bibendum ultricies, tellus ipsum hendrerit massa, ac commodo nisl libero in tellus. Fusce tristique euismod commodo.</p>
+                <form>
+                    <div class="form-group">
+                        <label for="quantity">Quantity:</label>
+                        <input type="number" class="form-control" id="quantity" value="1" min="1">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Add to Cart</button>
+                </form>
+            </div>
+        </div>
+    </div> 
+
+    <div class="container">
+        <h1>Mon panier</h1>
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Produit</th>
+              <th>Prix</th>
+              <th>Quantité</th>
+              <th>Total</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Produit 1</td>
+              <td>$10.00</td>
+              <td>2</td>
+              <td>$20.00</td>
+            </tr>
+            <tr>
+              <td>Produit 2</td>
+              <td>$20.00</td>
+              <td>1</td>
+              <td>$20.00</td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="text-right">
+          <h3>Total: $40.00</h3>
+          <a href="#" class="btn btn-primary">Valider mon panier</a>
+        </div>
+      </div>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
